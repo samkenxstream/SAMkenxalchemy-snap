@@ -4064,9 +4064,9 @@ __metadata:
   linkType: hard
 
 "@sideway/formula@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@sideway/formula@npm:3.0.0"
-  checksum: 8ae26a0ed6bc84f7310be6aae6eb9d81e97f382619fc69025d346871a707eaab0fa38b8c857e3f0c35a19923de129f42d35c50b8010c928d64aab41578580ec4
+  version: 3.0.1
+  resolution: "@sideway/formula@npm:3.0.1"
+  checksum: e4beeebc9dbe2ff4ef0def15cec0165e00d1612e3d7cea0bc9ce5175c3263fc2c818b679bd558957f49400ee7be9d4e5ac90487e1625b4932e15c4aa7919c57a
   languageName: node
   linkType: hard
 
@@ -5421,6 +5421,36 @@ __metadata:
   checksum: 5e0ff226806763be73e93dd7805b634f6f5921e3e90ca04acdf8db81eed9d8d3f0d4c5f1213047f45ebbf8047ffe0c840fa1ef2ec42c3a644899f69aa72b5bef
   languageName: node
   linkType: hard
+
+"alchemy-snap@workspace:packages/snap":
+  version: 0.0.0-use.local
+  resolution: "alchemy-snap@workspace:packages/snap"
+  dependencies:
+    "@lavamoat/allow-scripts": ^2.0.3
+    "@metamask/abi-utils": ^1.0.0
+    "@metamask/auto-changelog": ^2.6.0
+    "@metamask/eslint-config": ^10.0.0
+    "@metamask/eslint-config-jest": ^10.0.0
+    "@metamask/eslint-config-nodejs": ^10.0.0
+    "@metamask/eslint-config-typescript": ^10.0.0
+    "@metamask/snap-types": ^0.22.0
+    "@metamask/snaps-cli": ^0.22.0
+    "@metamask/utils": ^3.2.0
+    "@typescript-eslint/eslint-plugin": ^5.33.0
+    "@typescript-eslint/parser": ^5.33.0
+    eslint: ^8.21.0
+    eslint-config-prettier: ^8.1.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-jest: ^26.8.2
+    eslint-plugin-jsdoc: ^39.2.9
+    eslint-plugin-node: ^11.1.0
+    eslint-plugin-prettier: ^4.2.1
+    prettier: ^2.2.1
+    prettier-plugin-packagejson: ^2.2.11
+    rimraf: ^3.0.2
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
 
 "anser@npm:^2.1.0":
   version: 2.1.1
@@ -16074,36 +16104,6 @@ __metadata:
   checksum: 0a7a79900bbb36f8aaa922cf111702a3647ac6165736d5dc96d3ef367efc50465cac70c53cd172c382b022dac72ec91710608e5393de71f76d7142e6fd80e8a3
   languageName: node
   linkType: hard
-
-"snap@workspace:packages/snap":
-  version: 0.0.0-use.local
-  resolution: "snap@workspace:packages/snap"
-  dependencies:
-    "@lavamoat/allow-scripts": ^2.0.3
-    "@metamask/abi-utils": ^1.0.0
-    "@metamask/auto-changelog": ^2.6.0
-    "@metamask/eslint-config": ^10.0.0
-    "@metamask/eslint-config-jest": ^10.0.0
-    "@metamask/eslint-config-nodejs": ^10.0.0
-    "@metamask/eslint-config-typescript": ^10.0.0
-    "@metamask/snap-types": ^0.22.0
-    "@metamask/snaps-cli": ^0.22.0
-    "@metamask/utils": ^3.2.0
-    "@typescript-eslint/eslint-plugin": ^5.33.0
-    "@typescript-eslint/parser": ^5.33.0
-    eslint: ^8.21.0
-    eslint-config-prettier: ^8.1.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-jest: ^26.8.2
-    eslint-plugin-jsdoc: ^39.2.9
-    eslint-plugin-node: ^11.1.0
-    eslint-plugin-prettier: ^4.2.1
-    prettier: ^2.2.1
-    prettier-plugin-packagejson: ^2.2.11
-    rimraf: ^3.0.2
-    typescript: ^4.7.4
-  languageName: unknown
-  linkType: soft
 
 "socket.io-adapter@npm:~2.1.0":
   version: 2.1.0
